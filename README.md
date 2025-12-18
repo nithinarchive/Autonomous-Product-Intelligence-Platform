@@ -4,7 +4,6 @@ An end-to-end **Autonomous Product Intelligence Platform** that ingests real-tim
 
 This project is built as a **production-style system**, combining **Data Engineering, Analytics Engineering, Machine Learning, Product Intelligence, and GenAI**.
 
----
 
 ## 🔥 Why This Project Exists
 
@@ -19,7 +18,6 @@ This platform answers:
 
 The goal is to move from **passive dashboards** to **autonomous product decision systems**.
 
----
 
 ## 🧠 Core Capabilities
 
@@ -58,7 +56,7 @@ The goal is to move from **passive dashboards** to **autonomous product decision
 - Converts insights into human-readable decisions
 - Bridges technical intelligence with stakeholders
 
----
+
 
 ## 🏗️ High-Level Architecture
 
@@ -78,7 +76,6 @@ Actions (Slack / Feature Flags / APIs)
 ↓  
 GenAI Product Copilot  
 
----
 
 ## 📂 Repository Structure
 
@@ -109,7 +106,6 @@ autonomous-product-intelligence/
 ├── requirements.txt  
 └── README.md  
 
----
 
 ## 🚀 How to Run Locally
 
@@ -131,11 +127,6 @@ python ingestion/events_producer.py
 5. Start the API  
 uvicorn api.main:app --reload  
 
-Open:  
-http://127.0.0.1:8000/insights  
-
----
-
 ## 📊 Example Insight Output
 
 {
@@ -145,7 +136,7 @@ http://127.0.0.1:8000/insights
   "recommended_action": "Rollback feature"
 }
 
----
+
 
 ## 🧪 Key Design Principles
 
@@ -155,7 +146,7 @@ http://127.0.0.1:8000/insights
 - Clear separation of ingestion, intelligence, and action layers
 - Designed for extensibility into cloud-native systems
 
----
+
 
 ## 🔮 Future Enhancements
 
@@ -166,14 +157,12 @@ http://127.0.0.1:8000/insights
 - Auto-generated PRDs and Jira tickets
 - Multi-tenant SaaS support
 
----
 
 ## 👤 Author
 
 Nithin  
-Data Engineer | ML Engineer | Product Intelligence  
-
----
+Data Engineer | Data Scientist | Product Intelligence  
+linkedin.com/in/nithin-suresh7
 
 ## ⭐ Final Note
 
